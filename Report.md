@@ -7,10 +7,15 @@ The agent model used is a simple two layers one with 37 input size, state, and 4
 
 The hyper parameters used are of the same values used in the excercise. What follows is a description of each:
 BUFFER_SIZE = int(1e5)  # The size of memory where the agent stores its experience to learn from. 
+
 BATCH_SIZE = 64         # minibatch size
+
 GAMMA = 0.99            # discount factor of reward
+
 TAU = 1e-3              # for soft update of target parameters
+
 LR = 5e-4               # learning rate for training the neural network
+
 UPDATE_EVERY = 4        # how often to update the network
 
 The learning algorithm works as follows, Q-learning with experience replay:
