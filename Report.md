@@ -18,7 +18,7 @@ LR = 5e-4               # learning rate for training the neural network
 
 UPDATE_EVERY = 4        # how often to update the network
 
-The learning algorithm works as follows, Q-learning with experience replay:
+## The learning algorithm works as follows, Q-learning with experience replay:
 
 ![alt text](./deep_q_learning.png)
 
